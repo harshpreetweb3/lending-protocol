@@ -32,7 +32,7 @@ thread_local! {
 //     static STATE: Arc<Mutex<State>> = Arc::new(Mutex::new(State::new()));
 // }
 
-pub fn with_state<R>(f: impl FnOnce(&mut State) -> R) -> R {
+pub fn with_state<R>(f: impl FnOnce(&mut State) -> R) -> R { 
     STATE.with(|cell| f(&mut cell.borrow_mut()))
 }
 

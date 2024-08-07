@@ -11,7 +11,7 @@ use crate::types::{
 use crate::{caller, with_state, CallResult, Principal, time};
 
 // #[ic_cdk::update]
-pub async fn adding_liquidity_to_canister(
+pub async fn adding_liquidity_to_canister( 
     token_name: String,
     amount: u128,
 ) -> Result<TransferFromResult, String> {

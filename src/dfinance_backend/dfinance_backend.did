@@ -24,7 +24,7 @@ service : () -> {
   get_buy_and_burn : () -> (float64) query;
   get_current_deposist : () -> (float64) query;
   get_current_dfinance_price : () -> (float64) query;
-  get_current_growth_rate : () -> (float64) query;
+  get_current_growth_rate : () -> (float64) query; 
   get_current_phase : () -> (nat32);
   get_fund_raised : () -> (float64) query;
   get_launchpad_fees : () -> (float64) query;

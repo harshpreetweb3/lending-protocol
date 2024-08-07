@@ -12,10 +12,10 @@
     },
     "dfinance_backend": {
       "candid": "src/dfinance_backend/dfinance_backend.did",
-      "package": "dfinance_backend",
+      "package": "dfinance_backend", 
       "type": "rust"
     },
-    "dfinance_frontend": {
+    "dfinance_frontend": {  
       "dependencies": [
         "dfinance_backend"
       ],
